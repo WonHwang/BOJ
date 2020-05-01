@@ -1,2 +1,2 @@
-# BOJ
-problems of BOJ
+# Problem
+problems
