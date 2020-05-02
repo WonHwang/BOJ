@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1330-두 수 비교하기", "1330-두 수 비교하기\1330-두 수 비교하기.vcxproj", "{E88CCA23-8F37-48C7-BE4A-FA0A836C897A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E88CCA23-8F37-48C7-BE4A-FA0A836C897A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E88CCA23-8F37-48C7-BE4A-FA0A836C897A}.Debug|Win32.Build.0 = Debug|Win32
+		{E88CCA23-8F37-48C7-BE4A-FA0A836C897A}.Release|Win32.ActiveCfg = Release|Win32
+		{E88CCA23-8F37-48C7-BE4A-FA0A836C897A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2108-통계학", "2108-통계학.vcxproj", "{E35483C6-A730-43D1-9FBB-393FC5921EBD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E35483C6-A730-43D1-9FBB-393FC5921EBD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E35483C6-A730-43D1-9FBB-393FC5921EBD}.Debug|Win32.Build.0 = Debug|Win32
+		{E35483C6-A730-43D1-9FBB-393FC5921EBD}.Release|Win32.ActiveCfg = Release|Win32
+		{E35483C6-A730-43D1-9FBB-393FC5921EBD}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

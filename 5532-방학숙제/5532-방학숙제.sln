@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5532-방학숙제", "5532-방학숙제\5532-방학숙제.vcxproj", "{3D9831F8-A0AA-48BE-BBE2-83E0383030DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D9831F8-A0AA-48BE-BBE2-83E0383030DF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3D9831F8-A0AA-48BE-BBE2-83E0383030DF}.Debug|Win32.Build.0 = Debug|Win32
+		{3D9831F8-A0AA-48BE-BBE2-83E0383030DF}.Release|Win32.ActiveCfg = Release|Win32
+		{3D9831F8-A0AA-48BE-BBE2-83E0383030DF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

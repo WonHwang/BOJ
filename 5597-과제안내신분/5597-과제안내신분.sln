@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5597-과제안내신분", "5597-과제안내신분\5597-과제안내신분.vcxproj", "{46D5A0C9-1FCB-4AE3-A0A2-41C32C086D89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46D5A0C9-1FCB-4AE3-A0A2-41C32C086D89}.Debug|Win32.ActiveCfg = Debug|Win32
+		{46D5A0C9-1FCB-4AE3-A0A2-41C32C086D89}.Debug|Win32.Build.0 = Debug|Win32
+		{46D5A0C9-1FCB-4AE3-A0A2-41C32C086D89}.Release|Win32.ActiveCfg = Release|Win32
+		{46D5A0C9-1FCB-4AE3-A0A2-41C32C086D89}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
