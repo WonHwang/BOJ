@@ -3,59 +3,37 @@
 #include <stdio.h>
 #include <math.h>
 
-int DP[10001];
+int DP[100001];
 
-void init()
-{
+void init() {
+	
 	int i;
-
-	for (i=0; i<10001; i++) DP[i];
+	for (i = 0; i < 100001; i++) DP[i] = i;
 }
 
-void cal(int N)
-{
-	int i, root2, res1, res2;
-	double root;
+int min(int a, int b) {
+	// 작은 값 반환
 
-	res1 = N;
-	res2 = N;
+	if (a < b) return a;
+	else return b;
+}
 
-	root = sqrt((double) N);
-	root2 = (int) root;
-	res1 -= (root2 * root2);
-	res2 -= ((root2 - 1)*(root2 - 1));
-	printf("%d %d\n", res1, res2);
-	if (res1==0) DP[N] = 1;
-	else{
-		res1 = DP[res1];
-		res2 = DP[res2];
-		printf("%d %d\n", res1, res2);
-		if (res1>res2) DP[N] = res2+1;
-		else DP[N] = res1 + 1;
+void calDP() {
+	// 작은 수부터 DP 쌓아나간다
+
+	int i, j, k;
+
+	for (i = 2; i < (int)sqrt(100001); i++) {
+		k = i * i;
+		for (j = k; j < 100001; j++) DP[j] = min(1 + DP[j - k], DP[j]);
 	}
 }
 
-void calcul(int N)
-{
-	int i;
-
-	init();
-
-	DP[1] = 1;
-	DP[2] = 2;
-	DP[3] = 3;
-
-	for (i=4; i<=N; i++) cal(i);
-}
-
-int main()
-{
+int main() {
 	int N;
-
+	init();
+	calDP();
 	scanf("%d", &N);
-
-	calcul(N);
 	printf("%d\n", DP[N]);
-
 	return 0;
 }
