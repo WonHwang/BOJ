@@ -10,7 +10,26 @@ void getinfo() {
 }
 
 void cal() {
-	for (int i = 0; i < 3; i++) {
-		
+	int h, m, s, i;
+
+	for (i = 0; i < 3; i++) {
+		h = outh[i] - inh[i];
+		m = outm[i] - inm[i];
+		s = outs[i] - ins[i];
+		if (s < 0) {
+			m--;
+			s += 60;
+		}
+		if (m < 0) {
+			h--;
+			m += 60;
+		}
+		printf("%d %d %d\n", h, m, s);
 	}
+}
+
+int main() {
+	getinfo();
+	cal();
+	return 0;
 }
