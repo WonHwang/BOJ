@@ -46,16 +46,3 @@ void calDP(int N)
 
 	}
 }
-
-int main()
-{
-	int N, i;
-
-	scanf("%d", &N);
-
-	calDP(N);
-
-	printf("%d\n", DP[N]);
-
-	return 0;
-}

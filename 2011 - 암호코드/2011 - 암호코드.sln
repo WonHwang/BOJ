@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1082
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2011 - 암호코드", "2011 - 암호코드.vcxproj", "{BF2E1C77-B036-4833-9A25-4FFCC08F71E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF2E1C77-B036-4833-9A25-4FFCC08F71E2}.Debug|x64.ActiveCfg = Debug|x64
+		{BF2E1C77-B036-4833-9A25-4FFCC08F71E2}.Debug|x64.Build.0 = Debug|x64
+		{BF2E1C77-B036-4833-9A25-4FFCC08F71E2}.Debug|x86.ActiveCfg = Debug|Win32
+		{BF2E1C77-B036-4833-9A25-4FFCC08F71E2}.Debug|x86.Build.0 = Debug|Win32
+		{BF2E1C77-B036-4833-9A25-4FFCC08F71E2}.Release|x64.ActiveCfg = Release|x64
+		{BF2E1C77-B036-4833-9A25-4FFCC08F71E2}.Release|x64.Build.0 = Release|x64
+		{BF2E1C77-B036-4833-9A25-4FFCC08F71E2}.Release|x86.ActiveCfg = Release|Win32
+		{BF2E1C77-B036-4833-9A25-4FFCC08F71E2}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99458547-3604-4F39-86BD-6D38B825E127}
+	EndGlobalSection
+EndGlobal
